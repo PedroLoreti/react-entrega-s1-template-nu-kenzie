@@ -1,0 +1,30 @@
+.entry {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--grey-1, #F8F9FA);
+    padding: 18px;
+    border-radius: 4px;
+    width: clamp(22.1875rem, 6.534rem + 39.697vw, 35rem);
+
+
+    @media (min-width: 720px) and (max-width: 840px) {
+        width: clamp(12.5rem, -22.656rem + 93.75vw, 26.563rem);
+    }
+}
+
+.containerPrice {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 5px;
+}
+
+.border-green {
+    border-left: 5px solid var(--color-secondary);
+}
+
+.border-gray {
+    border-left: 5px solid var(--grey-2);
+}

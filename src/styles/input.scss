@@ -1,0 +1,13 @@
+.inputArea {
+    width: 100%;
+    height: 3rem;
+
+    border-radius: 8px;
+
+    border: 2px solid var(--grey-0, #F8F9FA);
+    background: var(--grey-0, #F8F9FA);
+}
+
+.left {
+    align-self: flex-start;
+}

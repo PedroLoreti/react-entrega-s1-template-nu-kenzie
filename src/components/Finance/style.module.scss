@@ -1,0 +1,19 @@
+.sectionContainer {
+    margin-top: 2.5rem;
+
+    @media (min-width: 720px) {
+        width: 979px;
+    }
+}
+
+.flexBox {
+    display: flex;
+    flex-direction: column;
+    gap: clamp(1rem, -1.769rem + 6.154vw, 4rem);
+    width: 355px;
+
+    @media (min-width: 720px) {
+        flex-direction: row;
+    }
+}
+

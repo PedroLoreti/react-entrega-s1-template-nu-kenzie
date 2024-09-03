@@ -1,0 +1,15 @@
+.containerEntries {
+    & > h3 {
+        width: clamp(12.5rem, 7.01rem + 22.523vw, 28.125rem);
+    }
+}
+
+.titleMargin {
+    margin-bottom: 1.875rem;
+}
+
+.containerUl {
+    display: flex;
+    flex-direction: column;
+    gap: .9375rem;
+}
